@@ -38,16 +38,18 @@ header {
 
   @media @tablet{
     margin-top: 2%;
+    text-align: center;
   }
 }
 
 #mkt-content-top{
   
-.display-flex(column,center,space-between);
+.display-flex(column,center,center);
   @media @tablet {
    
     .display-flex(row, space-between,center);
-    flex-wrap:nowrap
+    padding: 0;
+    margin: 0;
   }
   
 }
@@ -56,10 +58,9 @@ header {
 .content-card{
   background: @white2;
   color:@shark;
- display: inline-block;
+  display: inline-block;
   .border;
-  padding: 4%;
-  margin-bottom: 4%;
+  margin:0;
   .box-shadow;
 
   .content-card-img-container{
@@ -75,28 +76,48 @@ header {
   }
 
   @media @tablet {
-    width: 50%;
-    margin: 2%;
+    width: 30%;
+    margin: 4% 0;
     padding: 2%;
+    margin-bottom: 2%;
   }
  
 }
+
 
 article.content-card{
   width: 100%;
   margin: auto;
   @media @phone{
-    padding: 4%;  
+      
+    text-align: center;
+    h2{
+      margin: 4% 0;
+    }
   }
 }
-
+.middle-content{
+  padding: 0;
+  @media @tablet{
+    margin-bottom: 2%;
+  }
+}
 /*****Testimonial Section****/
 .content-testimonials{
   background: @white2;
+  .border;
+  .box-shadow;
   color:@shark;
   width:100%;
   padding: 4%;
   margin-bottom: 4%;
+
+
+  @media @tablet{
+    padding: 2%;
+    text-align: center;
+    margin-bottom: 0;
+  }
 }
 
 .content-testimonials-container{
@@ -124,8 +145,14 @@ article.content-card{
   .border;
   border-radius:50%;
   margin-right: 48px;
- 
- 
+}
+
+.content-testimonials-container p{
+  padding: 4%;
+
+  @media @phone {
+    padding: 2%;
+  }
 }
 
 

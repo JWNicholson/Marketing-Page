@@ -249,13 +249,14 @@ header {
 @media (min-width: 800px) {
   .content {
     margin-top: 2%;
+    text-align: center;
   }
 }
 #mkt-content-top {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: space-between;
+  align-items: center;
 }
 @media (min-width: 800px) {
   #mkt-content-top {
@@ -263,7 +264,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
   }
 }
 /*****Content cards*****/
@@ -272,8 +274,7 @@ header {
   color: #212529;
   display: inline-block;
   border: 1px solid #DCDCDC;
-  padding: 4%;
-  margin-bottom: 4%;
+  margin: 0;
   -webkit-box-shadow: 5px 5px 14px -8px #000000;
   box-shadow: 5px 5px 14px -8px #000000;
 }
@@ -293,9 +294,10 @@ header {
 }
 @media (min-width: 800px) {
   .content-card {
-    width: 50%;
-    margin: 2%;
+    width: 30%;
+    margin: 4% 0;
     padding: 2%;
+    margin-bottom: 2%;
   }
 }
 article.content-card {
@@ -304,16 +306,37 @@ article.content-card {
 }
 @media (min-width: 500px) {
   article.content-card {
-    padding: 4%;
+    text-align: center;
+  }
+  article.content-card h2 {
+    margin: 4% 0;
+  }
+}
+.middle-content {
+  padding: 0;
+}
+@media (min-width: 800px) {
+  .middle-content {
+    margin-bottom: 2%;
   }
 }
 /*****Testimonial Section****/
 .content-testimonials {
   background: #F8F8FF;
+  border: 1px solid #DCDCDC;
+  -webkit-box-shadow: 5px 5px 14px -8px #000000;
+  box-shadow: 5px 5px 14px -8px #000000;
   color: #212529;
   width: 100%;
   padding: 4%;
   margin-bottom: 4%;
+}
+@media (min-width: 800px) {
+  .content-testimonials {
+    padding: 2%;
+    text-align: center;
+    margin-bottom: 0;
+  }
 }
 .content-testimonials-container {
   display: flex;
@@ -344,6 +367,14 @@ article.content-card {
   border: 1px solid #DCDCDC;
   border-radius: 50%;
   margin-right: 48px;
+}
+.content-testimonials-container p {
+  padding: 4%;
+}
+@media (min-width: 500px) {
+  .content-testimonials-container p {
+    padding: 2%;
+  }
 }
 /******Buttons*********/
 .btn-cta {
