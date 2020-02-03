@@ -3,13 +3,14 @@
 main, header, section, aside, footer {
   margin: 0;
   padding: 10px;
-  border: 1px solid #000000;
+  
   color: @shark;
 }
 
 main {
-  background: #000000;
-  margin-top: 0;
+  max-width: 1200px;
+  background: @white;
+  margin: auto;
   padding-top: 0;
 }
 
@@ -17,7 +18,11 @@ main {
 header {
 
  margin-bottom: 4%;
-  padding: 2%;
+  padding: 0;
+
+  @media @tablet{
+    margin-bottom: 1%;
+  }
 }
 
 .header-img-container {
@@ -28,21 +33,65 @@ header {
 
 /*** Content Section ***/
 
-.content {
+.content{
   background:@white;
   margin-top: 4%;
+
+  @media @tablet{
+    margin-top: 2%;
+  }
 }
+
+#mkt-content-top{
+  
+.display-flex(column,center,space-between);
+  @media @phone {
+   
+    .display-flex(row, space-between,center);
+    flex-wrap:nowrap
+  }
+  
+}
+  
+  
+ 
 
 /*****Content cards*****/
 .content-card{
   background: @white2;
   color:@shark;
-  width:100%;
+ display: inline-block;
   .border;
   padding: 4%;
   margin-bottom: 4%;
   .box-shadow;
+
+  .content-card-img-container{
+    margin-bottom: 4%;
+  }
+
+  @media @phone{
+    padding: 12%;
+    .content-card-img-container{
+     .display-flex(column,center,center); 
+      
+    }
+  }
+
+  @media @tablet {
+    width: 50%;
+    margin: 2%;
+    padding: 2%;
+  }
  
+}
+
+article.content-card{
+  width: 100%;
+  margin: auto;
+  @media @phone{
+    padding: 4%;  
+  }
 }
 
 /*****Testimonial Section****/
@@ -50,7 +99,6 @@ header {
   background: @white2;
   color:@shark;
   width:100%;
-  
   padding: 4%;
   margin-bottom: 4%;
 }
@@ -68,23 +116,37 @@ header {
  display:none;
   .border;
   border-radius:50%;
+  @media @phone{
+    display: block;
+  }
 }
 
 
 
 /******Buttons*********/
+
 .btn-cta{
   .cta-btn;
   .box-shadow;
   width: 100%;
   margin-bottom: 4%;
+  
 }
+
 
  .btn-cta a{
    color: @white;
    text-decoration: none;
-   font-size: 2em;
+   font-size: 2rem;
+
+   @media @tablet{
+     font-size: 2.2rem;
+     
+   }
  }
+
+
+ 
 
 
 // home
