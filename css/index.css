@@ -168,12 +168,12 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.footer {
+footer {
   width: 100%;
   border-top: 2px dashed silver;
   background: #006e90;
 }
-.footer p {
+footer p {
   text-align: center;
   color: #212529;
   font-size: 1.6rem;
@@ -204,13 +204,6 @@ header {
 .content {
   background: #129a22;
 }
-/*****Testimonial Section****/
-.content-testimonials {
-  background-color: purple;
-}
-.content-testimonials-container {
-  border: 1px solid goldenrod;
-}
 /*****Content cards*****/
 .content-card {
   background: #F8F8FF;
@@ -219,6 +212,22 @@ header {
   border: px solid #212529;
   padding: 4%;
   margin-bottom: 4%;
+}
+/*****Testimonial Section****/
+.content-testimonials {
+  background: #F8F8FF;
+  color: #212529;
+  width: 100%;
+  border: px solid #212529;
+  padding: 4%;
+  margin-bottom: 4%;
+}
+.content-testimonials-container {
+  margin-bottom: 4%;
+  border: 1px solid goldenrod;
+}
+.testimonial-img-container img {
+  border-radius: 50%;
 }
 /******Buttons*********/
 .btn-cta {
@@ -233,9 +242,4 @@ header {
 }
 .btn-cta a {
   color: #FFFFFF;
-}
-/***Footer Section***/
-footer {
-  border: 1px solid #000000;
-  background: #616161;
 }
