@@ -1,4 +1,6 @@
 
+Fonts google - Rubik for headings, Roboto for content
+ 
 
  suggested marketing page mockup - https://www.figma.com/file/CRyu7oj30rDzswdxx6GzZE/PSS-mkt-pg?node-id=0%3A1
 
