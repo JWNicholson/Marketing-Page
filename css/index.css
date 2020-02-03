@@ -174,22 +174,26 @@ nav.top-nav {
   justify-content: space-between;
   align-items: center;
   background-color: #006e90;
-  height: 50%;
+  width: 100%;
+  margin: 0 0 2% 0;
+  height: 68px;
+  padding: 4%;
 }
 .logo-container {
-  width: 30%;
+  width: 20%;
+  color: #FFFFFF;
 }
 .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
   justify-content: space-around;
 }
 .nav-list a {
   color: #FFFFFF;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.8;
   text-decoration: none;
   margin: 12%;
@@ -217,11 +221,13 @@ footer {
 }
 main {
   background: #000000;
+  margin-top: 0;
+  padding-top: 0;
 }
 /***Header Section***/
 header {
   margin-bottom: 4%;
-  padding: 0;
+  padding: 2%;
 }
 .header-img-container {
   width: 100%;
