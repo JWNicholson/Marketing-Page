@@ -1,10 +1,15 @@
 // Mixins 
 .border(){
-    border: px solid @shark;
+    border: 1px solid @bordergrey;
  }
 
 .border-bottom(){
-    border-bottom: px solid @shark;
+    border-bottom: px solid @bordergrey;
+ }
+
+ .box-shadow(){
+    -webkit-box-shadow: 5px 5px 14px -8px #000000; 
+    box-shadow: 5px 5px 14px -8px #000000;
  }
  
  .display-flex(@direction,@justify, @align){

@@ -179,6 +179,7 @@ footer p {
   font-size: 1.6rem;
   padding: 20px;
 }
+/****General styles **/
 main,
 header,
 section,
@@ -187,7 +188,7 @@ footer {
   margin: 0;
   padding: 10px;
   border: 1px solid #000000;
-  color: #ffffff;
+  color: #212529;
 }
 main {
   background: #000000;
@@ -202,31 +203,42 @@ header {
 }
 /*** Content Section ***/
 .content {
-  background: #129a22;
+  background: #FFFFFF;
 }
 /*****Content cards*****/
 .content-card {
   background: #F8F8FF;
   color: #212529;
   width: 100%;
-  border: px solid #212529;
+  border: 1px solid #DCDCDC;
   padding: 4%;
   margin-bottom: 4%;
+  -webkit-box-shadow: 5px 5px 14px -8px #000000;
+  box-shadow: 5px 5px 14px -8px #000000;
 }
 /*****Testimonial Section****/
 .content-testimonials {
   background: #F8F8FF;
   color: #212529;
   width: 100%;
-  border: px solid #212529;
   padding: 4%;
   margin-bottom: 4%;
 }
 .content-testimonials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
   margin-bottom: 4%;
-  border: 1px solid goldenrod;
+  padding: 4%;
+  border: 1px solid #DCDCDC;
+  -webkit-box-shadow: 5px 5px 14px -8px #000000;
+  box-shadow: 5px 5px 14px -8px #000000;
 }
 .testimonial-img-container img {
+  display: none;
+  border: 1px solid #DCDCDC;
   border-radius: 50%;
 }
 /******Buttons*********/
