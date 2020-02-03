@@ -6,6 +6,7 @@ Fonts google - Rubik for headings, Roboto for content
 
  Color scheme:
 @white: #FFFFFF;
+@white2: #F8F8FF;
 @silver: #C0C0C0;
 @shark: #212529;
 @primary: #006e90;

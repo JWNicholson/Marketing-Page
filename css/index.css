@@ -192,6 +192,7 @@ footer {
 main {
   background: #000000;
 }
+/***Header Section***/
 header {
   background: #03a9f4;
   padding: 0;
@@ -199,15 +200,41 @@ header {
 .header-img-container {
   padding: 0;
 }
+/*** Content Section ***/
 .content {
   background: #129a22;
 }
+/*****Testimonial Section****/
 .content-testimonials {
   background-color: purple;
 }
 .content-testimonials-container {
   border: 1px solid goldenrod;
 }
+/*****Content cards*****/
+.content-card {
+  background: #F8F8FF;
+  color: #212529;
+  width: 100%;
+  border: px solid #212529;
+  padding: 4%;
+  margin-bottom: 4%;
+}
+/******Buttons*********/
+.btn-cta {
+  display: block;
+  border: none;
+  background-color: #f18f01;
+  width: 48%;
+  height: 35px;
+  color: #FFFFFF;
+  width: 100%;
+  margin-bottom: 4%;
+}
+.btn-cta a {
+  color: #FFFFFF;
+}
+/***Footer Section***/
 footer {
   border: 1px solid #000000;
   background: #616161;
