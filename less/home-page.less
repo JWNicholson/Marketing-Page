@@ -3,7 +3,6 @@
 main, header, section, aside, footer {
   margin: 0;
   padding: 10px;
-  
   color: @shark;
 }
 
@@ -45,7 +44,7 @@ header {
 #mkt-content-top{
   
 .display-flex(column,center,space-between);
-  @media @phone {
+  @media @tablet {
    
     .display-flex(row, space-between,center);
     flex-wrap:nowrap
@@ -53,9 +52,6 @@ header {
   
 }
   
-  
- 
-
 /*****Content cards*****/
 .content-card{
   background: @white2;
@@ -110,15 +106,26 @@ article.content-card{
   padding: 4%;
  .border;
  .box-shadow;
+
+ @media @tablet{
+   padding: 1.2em;
+ }
+}
+
+.testimonial-img-container{
+  display: none;
+
+  @media @tablet{
+    display: inline-block;
+  }
 }
 
 .testimonial-img-container img{
- display:none;
   .border;
   border-radius:50%;
-  @media @phone{
-    display: block;
-  }
+  margin-right: 48px;
+ 
+ 
 }
 
 

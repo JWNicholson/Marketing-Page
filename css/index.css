@@ -186,21 +186,19 @@ nav.top-nav {
 .nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  width: 90%;
-  justify-content: space-around;
+  width: 80%;
 }
 .nav-list a {
   color: #FFFFFF;
   font-size: 1.2rem;
   line-height: 1.8;
   text-decoration: none;
-  margin: 12%;
 }
 @media (min-width: 800px) {
   .nav-list a {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 footer {
@@ -259,7 +257,7 @@ header {
   justify-content: center;
   align-items: space-between;
 }
-@media (min-width: 500px) {
+@media (min-width: 800px) {
   #mkt-content-top {
     display: flex;
     flex-direction: row;
@@ -329,15 +327,23 @@ article.content-card {
   -webkit-box-shadow: 5px 5px 14px -8px #000000;
   box-shadow: 5px 5px 14px -8px #000000;
 }
-.testimonial-img-container img {
+@media (min-width: 800px) {
+  .content-testimonials-container {
+    padding: 1.2em;
+  }
+}
+.testimonial-img-container {
   display: none;
+}
+@media (min-width: 800px) {
+  .testimonial-img-container {
+    display: inline-block;
+  }
+}
+.testimonial-img-container img {
   border: 1px solid #DCDCDC;
   border-radius: 50%;
-}
-@media (min-width: 500px) {
-  .testimonial-img-container img {
-    display: block;
-  }
+  margin-right: 48px;
 }
 /******Buttons*********/
 .btn-cta {
