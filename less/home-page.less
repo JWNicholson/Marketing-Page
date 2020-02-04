@@ -58,7 +58,7 @@ header {
   color:@shark;
   display: inline-block;
   .border;
-  margin:0;
+  margin:2%;
   padding: 2%;
   .box-shadow;
 
@@ -96,6 +96,7 @@ article.content-card{
 }
 .middle-content{
   padding: 0;
+  
   @media @tablet{
     margin-bottom: 2%;
   }
@@ -108,13 +109,14 @@ article.content-card{
   color:@shark;
   width:100%;
   padding: 4%;
-  margin-bottom: 4%;
+  margin: 4% 0;
   text-align: center;
-
+ 
 
   @media @tablet{
     padding: 2%;
     margin-bottom: 0;
+    
   }
 }
 
@@ -162,6 +164,10 @@ article.content-card{
   .box-shadow;
   width: 100%;
   margin-bottom: 4%;
+
+  @media @tablet{
+    width: 100%;
+  }
   
 }
 
@@ -190,9 +196,21 @@ article.content-card{
     }
   }
   
-   
  }
 
+ 
+.testimonials-cta-container{
+  .btn-cta{
+    width:100%;
+  }
+  @media @tablet{
+    .display-flex(row, space-evenly,center);
+    .btn-cta{
+      width: 40%;
+      margin: 2%;
+    }
+  }
+}
  
  
 
