@@ -475,7 +475,7 @@ p {
 @media (min-width: 800px) {
   .about-gallery {
     margin: 2% auto;
-    padding: 4%;
+    padding: 4 4% 0 4%%;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -502,6 +502,18 @@ p {
 }
 @media (min-width: 800px) {
   #about-content-top.content .about-card {
+    width: 40%;
+  }
+}
+#about-cta-container {
+  margin: auto;
+}
+@media (min-width: 800px) {
+  #about-cta-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 40%;
   }
 }
