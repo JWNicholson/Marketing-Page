@@ -210,6 +210,9 @@ nav.top-nav {
     font-size: 1.8rem;
   }
 }
+a.active {
+  color: #99c24d;
+}
 footer {
   width: 100%;
   display: flex;
