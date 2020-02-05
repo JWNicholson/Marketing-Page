@@ -212,12 +212,22 @@ nav.top-nav {
 }
 footer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #006e90;
 }
 footer p {
   text-align: center;
   color: #FFFFFF;
   font-size: 1.6rem;
+  padding: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.8rem;
   padding: 20px;
 }
 /****General styles **/
