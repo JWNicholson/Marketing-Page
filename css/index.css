@@ -311,6 +311,14 @@ span.mkt-tagline {
     margin: 0;
   }
 }
+#mkt-content-top ul {
+  margin-bottom: 2%;
+  text-align-last: center;
+}
+#mkt-content-top li {
+  font-size: 2rem;
+  line-height: 1.6;
+}
 /*****Content cards*****/
 .content-card {
   background: #F8F8FF;
