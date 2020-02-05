@@ -547,9 +547,9 @@ p {
 #about-content-top.content .about-card p {
   margin: auto;
 }
-@media (min-width: 800px) {
+@media (min-width: 500px) {
   #about-content-top.content .about-card {
-    width: 40%;
+    width: 30%;
   }
 }
 #about-cta-container {
