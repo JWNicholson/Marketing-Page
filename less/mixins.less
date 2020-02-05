@@ -43,10 +43,16 @@
   padding:9px 23px;
   text-decoration:none;
   margin-bottom: 2%;
+ 
+   &:hover{
+    .hover();
+   } 
+ }
 
-  &:hover{
-    color: @shark;
-    filter:brightness(80%);
-  }
+ .hover(@color:@shark,@filter:brightness(50%)){
+    
+    color: @color;
+    filter:@filter;
+  
  }
  
