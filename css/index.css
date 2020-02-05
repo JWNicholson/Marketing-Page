@@ -530,6 +530,10 @@ p {
   text-align: center;
 }
 #about-content-top.content .about-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-evenly;
   border: 1px solid #DCDCDC;
   -webkit-box-shadow: 5px 5px 14px -8px #000000;
   box-shadow: 5px 5px 14px -8px #000000;
@@ -539,6 +543,9 @@ p {
 }
 #about-content-top.content .about-card .content-card-img-container {
   margin-bottom: 4%;
+}
+#about-content-top.content .about-card p {
+  margin: auto;
 }
 @media (min-width: 800px) {
   #about-content-top.content .about-card {
