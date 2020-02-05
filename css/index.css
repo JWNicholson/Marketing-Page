@@ -250,6 +250,9 @@ header {
   width: 100%;
   padding: 0;
 }
+.header-img-container img {
+  border-radius: 0 0 4px 4px;
+}
 #mkt-heading {
   margin: 2% auto;
   text-align: center;
