@@ -1,8 +1,5 @@
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 618edb47c10e14a5c20116354174365068db5e1b
  live site https://prisonerskills-jwn.netlify.com/
  
  this site uses Flexbox
