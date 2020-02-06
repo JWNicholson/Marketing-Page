@@ -165,29 +165,34 @@ article.content-card{
  @media @tablet{
    padding: 1.2em;
  }
-}
-
-.testimonial-img-container{
-  display: none;
-
+ .testimonial-img-container{
+  
   @media @tablet{
     display: inline-block;
   }
-}
 
-.testimonial-img-container img{
-  .border;
-  border-radius:50%;
-  margin-right: 48px;
-}
-
-.content-testimonials-container p{
-  padding: 4%;
-
-  @media @phone {
-    padding: 2%;
+   img{
+    .border;
+    border-radius:50%;
+    margin-right: 48px;
   }
+
+    p{
+     padding: 4%;
+    @media @phone {
+      padding: 2%;
+    }
+  }
+
+ }
+
 }
+
+
+
+
+
+
 
 /******Buttons*********/
 
@@ -241,100 +246,7 @@ article.content-card{
   }
 }
  
-/**** about page specific ****/
-.content.about-top{
-  @media @phone{
-    max-width: 80%;
-    margin: auto;
-  }
-}
 
-.about-content{
-  .border;
-  .box-shadow;
-  padding: 4%;
-  text-align: center;
-
-    .about-tagline{
-      color:@accent1;
-      font-style: italic;
-      font-weight:bold;
-      font-size: 2.2rem;
-    }
-
-  }
-
-  p{
-    text-align: left;
-  }
-
-  @media @tablet{
-    max-width: 80%;
-    margin: auto;
-    padding: 4%;
-  }
-
-.about-gallery{
-.display-flex(column, space-between,center);
-margin-top: 4%;
-  .about-gallery-heading{
-    text-align: center;
-    width:100%
-  }
-   
-  @media @tablet{
-    margin:2% auto;
-    padding: 4% 4% 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
-#about-content-top.content{
-  .display-flex(row,space-around,center);
-  flex-wrap: wrap;
-  padding: 0;
-  text-align: center;
-
-  .about-card{
-    .display-flex(column, center, space-evenly); 
-    .border;
-    .box-shadow;
-    width: 100%;
-    margin-bottom: 4%;
-    padding: 2%;
-
-    .content-card-img-container{
-      margin-bottom: 4%;
-    }
-
-     p{
-       margin: auto;
-     }
-
-    @media @phone{
-      width:30%;
-    }  
-  }
-}
-
-#about-cta-container{
-margin:auto;
-@media @tablet{
-  .display-flex(column,center,center);
-  width:40%
-}
-
-}
-
-.about-email-btn-container{
-  .display-flex(column,center,center);
-
- a{
-  .email-btn();
-
-  }
-}
 
   
    

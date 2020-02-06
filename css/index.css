@@ -403,24 +403,21 @@ article.content-card {
     padding: 1.2em;
   }
 }
-.testimonial-img-container {
-  display: none;
-}
 @media (min-width: 800px) {
-  .testimonial-img-container {
+  .content-testimonials-container .testimonial-img-container {
     display: inline-block;
   }
 }
-.testimonial-img-container img {
+.content-testimonials-container .testimonial-img-container img {
   border: 1px solid #DCDCDC;
   border-radius: 50%;
   margin-right: 48px;
 }
-.content-testimonials-container p {
+.content-testimonials-container .testimonial-img-container p {
   padding: 4%;
 }
 @media (min-width: 500px) {
-  .content-testimonials-container p {
+  .content-testimonials-container .testimonial-img-container p {
     padding: 2%;
   }
 }
