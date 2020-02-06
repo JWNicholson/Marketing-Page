@@ -1,8 +1,12 @@
 
-Fonts google - Rubik for headings, Roboto for content
- live site https://prisonerskills-jwn.netlify.com/
 
- suggested marketing page mockup - https://www.figma.com/file/CRyu7oj30rDzswdxx6GzZE/PSS-mkt-pg?node-id=0%3A1
+ live site https://prisonerskills-jwn.netlify.com/
+ 
+ this site uses Flexbox
+
+ Suggested marketing page mockup - https://www.figma.com/file/CRyu7oj30rDzswdxx6GzZE/PSS-mkt-pg?node-id=0%3A1
+ 
+Fonts google - Rubik for headings, Roboto for content
 
  Color scheme:
 // Color assignments 
