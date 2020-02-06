@@ -366,13 +366,8 @@ article.content-card {
     text-align: center;
   }
 }
-.middle-content {
-  padding: 0;
-}
-@media (min-width: 800px) {
-  .middle-content {
-    margin-bottom: 2%;
-  }
+.content-card.middle-content-container {
+  padding: 4%;
 }
 /*****Testimonial Section****/
 .content-testimonials {
@@ -388,7 +383,6 @@ article.content-card {
 }
 @media (min-width: 800px) {
   .content-testimonials {
-    padding: 2%;
     margin-bottom: 0;
   }
 }
