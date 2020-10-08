@@ -1,0 +1,258 @@
+
+/****General styles **/
+main, header, section, aside, footer {
+  margin: 0;
+  padding: 10px;
+  color: @shark;
+}
+
+main {
+  max-width: 1200px;
+  background: @white;
+  margin: auto;
+  padding-top: 0;
+}
+
+/***Header Section***/
+header {
+
+ margin-bottom: 4%;
+  padding: 0;
+
+  @media @tablet{
+    margin-bottom: 0;
+  }
+}
+
+.header-img-container {
+  width: 100%;
+  padding: 0;
+
+  img{
+    .border-radius-btm;
+  }
+}
+
+#mkt-heading{
+  margin: 2% auto;
+  text-align: center;
+}
+span.mkt-tagline{
+  font-size: medium;
+  font-style: italic;
+  @media @phone{
+    font-size: 2.8rem;
+  }
+
+  @media @tablet{
+    #mkt-br-2{
+      display:none;
+    }
+  }
+  
+}
+
+/*** Content Section ***/
+
+.content{
+  background:@white;
+  margin-top: 4%;
+
+  @media @tablet{
+    margin-top: 2%;
+    text-align: center;
+  }
+}
+
+#mkt-content-top{
+  
+.display-flex(column,center,center);
+  @media @tablet {
+    .display-flex(row, space-between,center);
+    padding: 0;
+    margin: 0;
+  }
+
+  ul{
+    margin-bottom: 2%;
+    text-align-last: center;
+  }
+
+  li{
+    //color:red;
+    font-size: 2rem;
+    line-height:1.6;
+  }
+  
+}
+  
+/*****Content cards*****/
+.content-card{
+
+  background: @white2;
+  color:@shark;
+  display: inline-block;
+  .border;
+  margin:2%;
+  padding: 2%;
+  .box-shadow;
+  text-align: center;
+  .content-card-img-container{
+    margin-bottom: 4%;
+
+    img{
+      .border-radius;
+    }
+   
+  }
+
+  @media @phone{
+    padding: 12%;
+    .content-card-img-container{
+     .display-flex(column,center,center); 
+    }
+  }
+
+  @media @tablet {
+    width: 30%;
+    padding: 2%;
+    margin: 2% 0;
+  }
+ 
+}
+
+article.content-card{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  @media @phone{
+      
+    h2{
+      margin: 4% 0;
+      text-align: center;
+    }
+  }
+}
+
+.content-card.middle-content-container{
+  padding: 4%;
+}
+
+/*****Testimonial Section****/
+.content-testimonials{
+  background: @white2;
+  .border;
+  .box-shadow;
+  color:@shark;
+  width:100%;
+  padding: 4%;
+  margin: 4% 0;
+  text-align: center;
+ 
+  @media @tablet{
+    margin-bottom: 0;  
+  }
+}
+
+.content-testimonials-container{
+  .display-flex(row, space-between, center);
+  font-style: italic;
+  margin-bottom: 4%;
+  padding: 4%;
+ .border;
+ .box-shadow;
+
+ @media @tablet{
+   padding: 1.2em;
+ }
+ .testimonial-img-container{
+  
+  @media @tablet{
+    display: inline-block;
+  }
+
+   img{
+    .border;
+    border-radius:50%;
+    margin-right: 48px;
+  }
+
+    p{
+     padding: 4%;
+    @media @phone {
+      padding: 2%;
+    }
+  }
+
+ }
+
+}
+
+
+
+
+
+
+
+/******Buttons*********/
+
+.btn-cta{
+  .cta-btn;
+  .box-shadow;
+  width: 100%;
+  margin-bottom: 4%;
+
+  @media @tablet{
+    width: 100%;
+  }
+  
+}
+
+ .btn-cta a{
+   color: @white;
+   text-decoration: none;
+   font-size: 2rem;
+
+   @media @tablet{
+     font-size: 2.2rem; 
+   }
+ }
+
+ .middle-cta-container{
+  
+  .btn-cta.middle-content{
+    width:100%;
+  }
+  @media @tablet{
+    .display-flex(row, space-evenly,center);
+    .btn-cta.middle-content{
+      width: 40%;
+      margin: 2%;
+    }
+  }
+  
+ }
+
+.testimonials-cta-container{
+  .btn-cta{
+    width:100%;
+  }
+  @media @tablet{
+    .display-flex(row, space-evenly,center);
+    .btn-cta{
+      width: 40%;
+      margin: 2%;
+    }
+  }
+}
+ 
+
+
+  
+   
+  
+
+
+
+
+
